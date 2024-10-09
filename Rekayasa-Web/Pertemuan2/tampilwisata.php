@@ -14,10 +14,10 @@ $data = json_decode($send, true);
 
 echo "<table border='1' cellpadding='10' cellspacing='0'>";
 echo "<tr>
-        <th>ID Wisata</th>
-        <th>Kota</th>
-        <th>Landmark</th>
-        <th>Tarif</th>
+        <th>ID WISATA</th>
+        <th>KOTA</th>
+        <th>LANDMARK</th>
+        <th>TARIF</th>
       </tr>";
 
 foreach($data as $row){
